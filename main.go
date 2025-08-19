@@ -96,3 +96,10 @@ func main() {
 	log.Printf("Serving on port: %s\n", port)
 	log.Fatal(srv.ListenAndServe())
 }
+
+func unused() {
+	// This is a comment
+	/*
+		This is a multi-line comment
+	*/
+}
